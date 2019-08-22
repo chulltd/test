@@ -1,8 +1,7 @@
        <!doctype html>
 <html class="no-js" lang="">
 <head>
-    <title>Figure 8.1</title>
-    <link href="https://www.econgraphs.org/static/css/bootstrap.min.css" rel="stylesheet">
+    <title>Figure 10.2</title>
     <link href="../code/kg.0.2.0.css" rel="stylesheet">
     <script src="../code/kg.0.2.0.js"></script>
 </head>
@@ -48,34 +47,15 @@ layout:
             text: y = x + 3
             x: 5
 
-      # show points for reference
       - Point:
-          coordinates: [3,4]
+         
       - Point:
-          coordinates: [7,8]
+    
 
     sidebar:
       triggerWidth: 968
       controls:
-        - title: Five technologies for producing 100 meters of cloth, compared
-          description: The table describes five different technologies that we refer to in the rest of this section. They use different quantities of labour and coal as inputs for producing 100 metres of cloth. Check the boxes below to see each technology's inmputs for producing this amount of cloth.
-          checkboxes:
-            - {param: a, label: "\\text{Show A?}"}
-            - {param: b, label: "\\text{Show B?}"}
-            - {param: c, label: "\\text{Show C?}"}
-            - {param: d, label: "\\text{Show D?}"}
-            - {param: e, label: "\\text{Show E?}"}
+
 
           divs:
-            - html: "The A-technology uses 1 worker and 6 tons of coal."
-              show: (params.a)
-            - html: "The B-technology uses 4 workers and 2 tons of coal."
-              show: (params.b)
-            - html: "The C-technology uses 3 workers and 7 tons of coal."
-              show: (params.c)
-            - html: "The D-technology uses 5 workers and 5 tons of coal."
-              show: (params.d)
-            - html: "The E-technology uses 10 workers and 1 ton of coal."
-              show: (params.e)
-            - html: "As you can see, the E-technology is the most labor-intensive of the technologies available, with 10 works required."
-              show: (calcs.allShown)
+            - html:
